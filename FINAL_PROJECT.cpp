@@ -32,7 +32,7 @@ std::pair<std::vector<std::string>, std::vector<std::string>> getQuestionsAndAns
     CURL* curl;
     CURLcode res;
     std::string readBuffer;
-
+    
     // Construct URL with difficulty level
     std::string apiUrl = url + "&category=" + category + "&difficulty=" + difficulty;
 
